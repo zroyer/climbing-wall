@@ -7,8 +7,7 @@ function Example() {
 
   return (
     <div>
-      <p>Current clipboard content:</p>
-      <p>{clipboard}</p>
+      <p>Current clipboard content: {clipboard}</p>
       <button onClick={() => updateClipboard(sampleText)}>
         {sampleText}
       </button>
