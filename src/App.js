@@ -1,15 +1,24 @@
 import React from 'react';
 import Example from './components/Example.js';
-import codeSnippet from './codeSnippet.svg';
+import { Typography } from 'antd';
 import './App.css';
+import simpleExample from './simpleExample.svg';
+const { Title } = Typography;
 
 function App() {
   return (
-    <div className="App">
-      <h1>Climbing Wall <span role='img' aria-label='climb'>🧗</span></h1>
-      <p>
+    <div className='App'>
+      <Title
+        level={1}
+        style={{ margin: '32px 0 0 0' }}
+      >
+        Climbing Wall <span role='img' aria-label='climb'>🧗</span>
+      </Title>
+      <div
+        style={{ margin: '16px 0 8px' }}
+      >
         A playground for <a href='https://npmjs.com/react-carabiner' target='_blank' rel='noopener noreferrer'>react-carabiner</a>, a React Hook to copy to the clipboard!
-      </p>
+      </div>
       <div>
         <a
           className='badge'
@@ -67,7 +76,19 @@ function App() {
           />
         </a>
       </div>
-      <img src={codeSnippet} className='codeSnippet' alt='codeSnippet' />
+      <Title
+        level={3}
+        style={{ margin: '48px 0 16px' }}
+      >
+        Simple Example
+      </Title>
+      <img src={simpleExample} className='simpleExample' alt='simpleExample' />
+      <Title
+        level={3}
+        style={{ margin: '48px 0 16px' }}
+      >
+        Try it out!
+      </Title>
       <Example />
     </div>
   );

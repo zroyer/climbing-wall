@@ -1,7 +1,27 @@
+@import '~antd/dist/antd.css';
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-
 .badge {
   padding: 0 2px;
+}
+.explainer {
+  margin: 0 0 0.5em;
+}
+.exampleContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 375px;
+  margin: 0 0 96px 0;
+}
+.exampleResults {
+  margin: 0 0 32px 0;
+}
+.exampleInput {
+  width: 375px;
+  margin: 8px 0;
 }
