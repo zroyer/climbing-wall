@@ -5,7 +5,7 @@ const { Search, TextArea } = Input;
 
 function Example() {
   const [clipboard, updateClipboard] = useCarabiner();
-  const [inputText, setInputText] = useState('just climbing!');
+  const [inputText, setInputText] = useState('change this text!');
   const buttonAContent = 'Copy my text!';
   const buttonBContent = 'Copy this other text!';
   const buttonCContent = 'Clear the clipboard!';

@@ -17,7 +17,7 @@ function App() {
       <div
         style={{ margin: '16px 0 8px' }}
       >
-        A playground for <a href='https://npmjs.com/react-carabiner' target='_blank' rel='noopener noreferrer'>react-carabiner</a>, a React Hook to copy to the clipboard!
+        A safe place to play with <a href='https://npmjs.com/react-carabiner' target='_blank' rel='noopener noreferrer'>react-carabiner</a>, a React Hook to copy to the clipboard!
       </div>
       <div>
         <a
