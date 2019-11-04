@@ -20,6 +20,12 @@
 }
 .exampleResults {
   margin: 0 0 32px 0;
+  cursor: not-allowed;
+}
+.exampleResults:focus,
+.exampleResults:hover,
+.exampleResults:active {
+  border-color: rgb(217, 217, 217);
 }
 .exampleInput {
   width: 375px;
