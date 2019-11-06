@@ -12,7 +12,9 @@ function Example() {
 
   return (
     <div className='exampleContainer'>
-      <div className='explainer'>Current clipboard content: </div>
+      <div className='explainer'>
+        Current clipboard content:
+      </div>
       <TextArea
         className='exampleResults'
         rows={4}
